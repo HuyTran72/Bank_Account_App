@@ -2,7 +2,7 @@ public class Bank {
     public static void main(String[] args){
         
         //create a new AccountManager object
-        AccountManager accountManager = new AccountManager(new BankAccount[]{new BankAccount(1, "John", 1000), new BankAccount(2, "Smith", 2000), new BankAccount(3, "Mike", 3000)});
+        AccountManager accountManager = new AccountManager(new BankAccount[]{new BankAccount(1, "Kenny", 1000), new BankAccount(2, "Jimmy", 2000), new BankAccount(3, "Henry", 3000)});
         
         //create two new accounts
         accountManager.create(new BankAccount(4, "Alex", 4000));
